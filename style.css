@@ -1,0 +1,13 @@
+.calculator{
+    background-color: rgba(85, 85, 85, 0.63);
+    display: grid;
+}
+.counter{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+body{
+    color: azure;
+    background-image: url(bg.jpg);
+    backdrop-filter: blur(10px);
+    background-color: black;
+}

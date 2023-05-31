@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<div class="bg">
+<body>
+    <form action="" class="calculator">
+        <input class="counter" placeholder="Жду вашего значения">
+        <div class="button_colect">
+            <div class="button_number">
+                <div class="button_1" onclick="butonsCount('1')">1</div>
+                <div class="button_2" onclick="butonsCount('2')">2</div>
+                <div class="button_3" onclick="butonsCount('3')">3</div>
+                <div class="button_4" onclick="butonsCount('4')">4</div>
+                <div class="button_5" onclick="butonsCount('5')">5</div>
+                <div class="button_6" onclick="butonsCount('6')">6</div>
+                <div class="button_7" onclick="butonsCount('7')">7</div>
+                <div class="button_9" onclick="butonsCount('9')">9</div>
+                <div class="button_8" onclick="butonsCount('8')">8</div>
+                <div class="button_0" onclick="butonsCount('0')">0</div>
+            </div>
+            <div class="button_liter">
+                <div class="plus"      onclick="butonsCount('+')">+</div>
+                <div class="minus"     onclick="butonsCount('-')">-</div>
+                <div class="multiply"  onclick="butonsCount('*')">*</div>
+                <div class="divide"    onclick="butonsCount('/')">/</div>
+                <div class="result"    onclick="butonsCount('=')">=</div>
+                <div class="percent"   onclick="butonsCount('%')">%</div>
+                <div class="dot"       onclick="butonsCount(',')">,</div>
+                <div class="r_bracked" onclick="butonsCount('rBR')">(</div>
+                <div class="l_bpacked" onclick="butonsCount('lBR')">)</div>
+                <div class="clear"     onclick="butonsCount('clear')">C</div>
+            </div>
+        </div>
+    </form>
+</body>
+</div>
+</html>
